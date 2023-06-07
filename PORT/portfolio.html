@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>PortFolio</title>
+</head>
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<link rel="icon" type="image/x-icon" href="img/hero.jpg">
+<body>
+
+	<!-- HEADER -->
+
+	<header>
+		<section class="top-nav">
+			<h1> IFO </h1>
+			<ul>
+				<li> <a href="#about"> ABOUT </a> </li>
+				<li> <a href="#skills"> SKILLS </a> </li>
+				<li> <a href="#projects"> PROJECTS </a> </li>
+				<li> <a href="#contacts"> CONTACT </a> </li>
+			</ul>
+		</section>
+	</header>
+
+	<!-- HERO SECTION -->
+
+	<section  class="hero" id="about">
+		<img 
+		src="img/hero.jpg"
+		alt="IFO"
+		loading="lazy"
+		class="hero-img"
+		/>
+		<div class="bio animate_animated animate_shakeX">
+			<h2 class="bio-title">About Me</h2>
+			<p class="bio-text">
+			I'm a Nigeria based Web Designer & Front-end Developer focused on crafting
+            clean & User-friendly experience.
+      </p>
+  </div>
+
+	</section>
+
+	<!-- MORE -->
+
+	<section class="more-about">
+		<h2> More About Me </h2>
+
+		<p>
+			I am passionate about creating beautiful and functional websites that provide a great user experience. I believe that good design and clean code are key to building successful websites.
+		</p>
+
+		<p>
+			In my free time, I enjoy learning new technologies and staying up-to-date with the latest trends in web development. I am also an avid reader and enjoy learning about topics beyond my field.
+		</p>
+
+		<p>
+			I am a team player and enjoy collaborating with others to acheve a common goal. i am comfortable working on projects of all sizes and am always eager to take on new challenges.
+		</p>
+		
+	</section>
+
+	<!-- SKILLS -->
+
+	<section class="skills" id="skills">
+		<h2 class="skill-header"> My Top Skills </h2>
+
+		<div class="skills-wrapper">
+			<div class="first-set animate_animated animate_pulse">
+				<img 
+				src="img/js.png" 
+				alt="" 
+				loading="lazy" 
+				class="icon icon-card"
+				/>
+				<img  
+				src="img/css.png"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+				/>
+				<img 
+				src="img/python.png"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+				/>
+			</div>
+
+		<div class="second-set animate_animated animate_pulse">
+			<img 
+			src="img/boot.png"
+			alt=""
+			loading="lazy"
+			class="icon icon-card"
+			/>
+			<img 
+			src="img/sql.png"
+			alt=""
+			loading="lazy"
+			class="icon icon-card" 
+			/>
+			<img 
+			src="img/ci.png"
+			alt=""
+			loading="lazy"
+			class="icon icon-card"
+			/>
+		</div>
+	</div>
+		
+	</section>
+
+	<!-- PROJECT -->
+
+	<section class="projects" id="projects">
+		<h2 class="projects-title"> Some of my Recent Projects </h2>
+		<div class="projects-container">
+			<div class="project-container project-card">
+				<img 
+				src="img/img-1.jpg"
+				alt=""
+				loading="lazy"
+				class="project-pic"
+				/>
+			<h3 class="project-title"> Graphics Design </h3>
+			<p class="porject-details"> 
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+        	</p>
+        	<a href="#" target="_blank" class="project-link"> Check it out </a>
+        </div>
+        <div class="project-container project-card">
+        	<img 
+        	src="img/img-2.jpg"
+        	alt=""
+        	loading="lazy"
+        	class="project-pic" 
+        	/>
+        	<h3 class="project-title"> Graphics Design </h3>
+			<p class="porject-details"> 
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+        	</p>
+        	<a href="#" target="_blank" class="project-link"> Check it out </a>
+        </div>
+        <div class="project-container project-card">
+        	<img 
+        	src="img/img-3.jpg"
+        	alt=""
+        	loading="lazy"
+        	class="project-pic" 
+        	/>
+        	<h3 class="project-title"> Graphics Design </h3>
+			<p class="porject-details"> 
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+        	</p>
+        	<a href="#" target="_blank" class="project-link"> Check it out </a>
+        </div>
+    </div>
+		
+	</section>
+
+	<!-- CONTACT -->
+
+	<section class="contact" id="contacts">
+		<h2> Get In Touch With Me </h2>
+		<div class="contact-form-container">
+			<dvi class="contact-form">
+				<form action="mailto: fa4id9099@gmail.com" method="POST">
+					<div class="form-control">
+						<label for="name">Name </label>
+						<input 
+						type="text" 
+						id="name"
+						name="sender-name"
+						placeholder="Enter Your Name"
+						class="input-field"
+						required
+						/> 
+					</div>
+					<div class="form-control">
+						<label for="email">Email</label>
+						<input 
+						type="email" 
+						id="email"
+						name="sender-email"
+						placeholder="Enter Your Email"
+						class="input-field" 
+						required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="message"> Message </label>
+						<textarea
+						id="message"
+						cols="60"
+						rows="10"
+						placeholder="Enter Your Message"
+						name="message"
+						class="input-field"
+						required>
+						</textarea>
+					</div>
+					<input type="submit"
+					value="submit"
+					id="submit-btn"
+					class="submit-btn">
+		
+	</section>
+
+	<!-- CONNECT -->
+
+	<section>
+		<div class="socials">
+			<a href="https://github.com/Olanrewaju005" target="_blank">
+				<img 
+				src="img/github.gif"
+				alt="github"
+				loading="lazy"
+				class="socicon"
+				/>
+			</a>
+			<a href="https://twitter.com/Olanrewaju005_" target="_blank">
+				<img 
+				src="img/twitter.gif"
+				alt="twitter"
+				loading="lazy"
+				class="socicon"
+				/>
+			</a>
+
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer>
+		<section>
+			<p> Copy Right: Idowu Favour Olanrewaju&copy </p>
+		</section>
+	</footer>
+
+</body>
+</html>
